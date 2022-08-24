@@ -23,15 +23,21 @@ function splitSentence(word) {
 
 // Desafio 4
 function concatName(names) {
-  for(i = 0; i < names.length; i+=1) 
-  return i[3, 0]
+  let firstName = names[0] 
+  let lastName = names[names.length-1]
+  let results = lastName + ', ' + firstName
+
+  return results
 }
 
-concatName(['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'])
+
 
 // Desafio 5
-function footballPoints() {
-  // seu código aqui
+function footballPoints(wins, ties) {
+  let team = wins * 3;
+  let resultado = team + ties;
+  
+  return resultado;
 }
 
 // Desafio 6
