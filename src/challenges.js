@@ -1,17 +1,28 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+function compareTrue(tenis, sapato) {
+  if(tenis && sapato === true){
+    return true
+  } else {
+    return false
+  }
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, heigth) {
+  return base * heigth /2
 }
+
+calcArea(10,50);
 
 // Desafio 3
 function splitSentence() {
-  // seu código aqui
+  let word = 'go Trybe'; 'vamo que vamo'; 'foguete';
+  let splitword = word.split (' ') 
+
+  return splitword;
 }
+
+
 
 // Desafio 4
 function concatName() {
