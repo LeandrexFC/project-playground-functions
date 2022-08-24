@@ -21,12 +21,13 @@ function splitSentence(word) {
   return splitword;
 }
 
-
-
 // Desafio 4
-function concatName() {
-  // seu código aqui
+function concatName(names) {
+  for(i = 0; i < names.length; i+=1) 
+  return i[3, 0]
 }
+
+concatName(['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'])
 
 // Desafio 5
 function footballPoints() {
