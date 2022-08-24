@@ -15,9 +15,8 @@ function calcArea(base, heigth) {
 calcArea(10,50);
 
 // Desafio 3
-function splitSentence() {
-  let word = 'go Trybe'; 'vamo que vamo'; 'foguete';
-  let splitword = word.split (' ') 
+function splitSentence(word) {
+  let splitword = word.split(' ') 
 
   return splitword;
 }
