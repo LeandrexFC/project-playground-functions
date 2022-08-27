@@ -12,8 +12,6 @@ function calcArea(base, heigth) {
   return base * heigth /2
 }
 
-calcArea(10,50);
-
 // Desafio 3
 function splitSentence(word) {
   let splitword = word.split(' ') 
@@ -30,8 +28,6 @@ function concatName(names) {
   return results
 }
 
-
-
 // Desafio 5
 function footballPoints(wins, ties) {
   let team = wins * 3;
@@ -42,15 +38,18 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(num) {
-  let contagem = 0;
-  let maior = Math.max(...num);
+  let resultado = 0;
 
-for(i = 0; i < num.length; i += 1 )
-
-  return maior;
+  for(i = 0; i < num.length; i += 1) {
+      if (num[i] === Math.max(...num)) {
+            resultado +=1;
+      }   
+  }
+    return resultado;
 }
 
-console.log(highestCount([9, 1, 2, 3, 9, 5, 7]))
+
+
 // Desafio 7
 function catAndMouse() {
   // seu código aqui
